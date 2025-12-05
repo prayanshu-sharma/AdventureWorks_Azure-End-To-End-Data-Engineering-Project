@@ -1,0 +1,52 @@
+--CREATE MASTER KEY
+
+CREATE MASTER KEY  ENCRYPTION BY PASSWORD ='Pray@n24680'
+
+SELECT * FROM sys.symmetric_keys;
+
+--CREATE DATABASE SCOPED CREDENTIAL
+
+CREATE DATABASE SCOPED CREDENTIAL prayanshu_scoped_credential
+WITH IDENTITY = 'Managed Identity'
+
+--create external data source
+CREATE EXTERNAL DATA SOURCE source_silvercontainer
+WITH
+(
+    LOCATION= 'https://azuredataenggdatalake.blob.core.windows.net/silvercontainer',
+    CREDENTIAL=prayanshu_scoped_credential
+)
+
+CREATE EXTERNAL DATA SOURCE source_goldcontainer
+WITH
+(
+    LOCATION= 'https://azuredataenggdatalake.blob.core.windows.net/goldcontainer',
+    CREDENTIAL=prayanshu_scoped_credential
+)
+
+
+--CREATE EXTERNAL FILE FORMAT
+
+CREATE EXTERNAL FILE FORMAT file_format_parquet
+WITH
+(
+    FORMAT_TYPE=PARQUET,
+    DATA_COMPRESSION = 'org.apache.hadoop.io.compress.SnappyCodec'
+)
+
+
+---CREATE EXTERNAL TABLE 
+
+CREATE EXTERNAL TABLE gold.exttable
+WITH
+(
+     LOCATION='exttable',
+     DATA_SOURCE=source_goldcontainer,
+     FILE_FORMAT=file_format_parquet
+)
+AS
+SELECT * FROM gold.sales
+---------------------------------------------------------------------
+----------------------------------------------------------------
+---CREATE ExternalTable
+select * from gold.exttable
