@@ -13,3 +13,4 @@ Skill Used In this project-  Azure Data Factory, Azure Databricks,Pyspark, Azure
 5-Connecting Power-BI with our Azure Synapse Analytics workspace. This integration is required to access the curated datasets and begin developing the required reports and dashboards.
 
 
+"C:\Users\praya\Downloads\End to end flow of Project.png"
