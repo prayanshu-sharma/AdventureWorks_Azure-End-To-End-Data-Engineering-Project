@@ -1,6 +1,6 @@
 # Azure-End-To-End-Data-Engineering-Project
 
-Skill Used In this project-  Azure Data Factory, Azure Databricks,Pyspark, Azure Synapse Analytics and Power-BI Tool
+Skill Used In this project-  Azure Data Factory, Azure Databricks,Azure Data Lake Storage Gen2, Pyspark, Azure Synapse Analytics and Power-BI Tool
 
 1-How to design and implement a robust data pipeline using Azure Data Factory.
 
