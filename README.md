@@ -1,4 +1,4 @@
-# Azure-End-To-End-Data-Engineering-Project
+# AdventureWorks-Azure-End-To-End-Data-Engineering-Project
 
 Skill Used In this project-  Azure Data Factory, Azure Databricks,Azure Data Lake Storage Gen2, Pyspark, Azure Synapse Analytics and Power-BI Tool
 
@@ -11,6 +11,9 @@ Skill Used In this project-  Azure Data Factory, Azure Databricks,Azure Data Lak
 4-Best practices for handling big data solutions and real-time data processing with Apache Spark.
 
 5-Connecting Power-BI with our Azure Synapse Analytics workspace. This integration is required to access the curated datasets and begin developing the required reports and dashboards.
+
+![Uploading image.png…]()
+
 
 # Implementation Steps To Create Dynamic Pipeline:
 
