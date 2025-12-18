@@ -12,7 +12,8 @@ Skill Used In this project-  Azure Data Factory, Azure Databricks,Azure Data Lak
 
 5-Connecting Power-BI with our Azure Synapse Analytics workspace. This integration is required to access the curated datasets and begin developing the required reports and dashboards.
 
-![Uploading image.png…]()
+
+<img width="1916" height="748" alt="image" src="https://github.com/user-attachments/assets/d77d32cd-1034-4085-acf0-8df87b84a48f" />
 
 
 # Implementation Steps To Create Dynamic Pipeline:
