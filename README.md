@@ -2,15 +2,19 @@
 
 Skill Used In this project-  Azure Data Factory, Azure Databricks,Azure Data Lake Storage Gen2, Pyspark, Azure Synapse Analytics and Power-BI Tool
 
-1-How to design and implement a robust data pipeline using Azure Data Factory.
+1-How to design/build and implement a robust/dynamic data pipeline using Azure Data Factory.
 
-2-The process of data integration and transformation with Databricks.
+2-Ingest ,Transform and analyze JSON,CSV and Parquet Data from mutiple source
 
-3-Utilizing Azure Synapse Analytics for efficient data warehousing and analytics.
+3-The process of data integration and transformation with Databricks using PySpark for Advanced data processing and cleaning.
 
-4-Best practices for handling big data solutions and real-time data processing with Apache Spark.
+4-Design and implement medallion Architecture(bronze,silver and gold layers) for enterprise scale analytics
 
-5-Connecting Power-BI with our Azure Synapse Analytics workspace. This integration is required to access the curated datasets and begin developing the required reports and dashboards.
+5-Utilizing Azure Synapse Analytics for efficient data warehousing and analytics.
+
+6-Best practices for handling big data solutions and real-time data processing with Apache Spark.
+
+7-Connecting Power-BI with our Azure Synapse Analytics workspace. This integration is required to access the curated datasets and begin developing the required reports and dashboards.
 
 
 <img width="1916" height="748" alt="image" src="https://github.com/user-attachments/assets/d77d32cd-1034-4085-acf0-8df87b84a48f" />
